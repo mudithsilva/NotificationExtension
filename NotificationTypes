@@ -1,0 +1,15 @@
+//
+//  NotificationTypes.swift
+//  MYP
+//
+//  Created by Mudith Chathuranga on 6/7/18.
+//  Copyright © 2018 Chathuranga. All rights reserved.
+//
+
+import Foundation
+
+extension Notification.Name {
+    static let didChangeActiveCard = Notification.Name("ChangedActiveCard")
+    static let didMenuStatusChanged = Notification.Name("MenuClosed")
+    static let didQuestionsLoaded = Notification.Name("QuestionsLoaded")
+}
